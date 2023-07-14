@@ -33,7 +33,7 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 ![image](https://github.com/ijoshua932/configure-ad/assets/139269375/fb5f865f-4d02-46ba-87ac-f627eaf95b3d)
 </p>
 <p>
-You will need to open a new Azure account at www.azure.microsoft.com/en-us/get-started/ and just fill in your info. You will need a credit card(you will not be charged, unless you upgrade your account or run out of free credits). 
+To open a new Microsoft Azure account, visit the Microsoft Azure website. Click on the "Sign up" button and follow the prompts to create a new account. Provide the required information, such as your email address, password, and billing details. Once you complete the signup process, you'll have access to your new Microsoft Azure account.
 </p>
 <br />
 
