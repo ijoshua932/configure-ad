@@ -54,7 +54,7 @@ To create and configure a domain controller in Azure, first, navigate to the Azu
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To promote a server to a domain controller in Azure, first, ensure you have a virtual machine running Windows Server OS. Install the Active Directory Domain Services role on the server using Server Manager or PowerShell. Finally, run the "Promote this server to a domain controller" wizard, configure the domain settings, and follow the prompts to promote the server to a domain controller in an existing or new Active Directory forest.
 </p>
 <br />
 
