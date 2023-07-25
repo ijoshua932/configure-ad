@@ -64,7 +64,7 @@ To promote a server to a domain controller in Azure, first, ensure you have a vi
 
 </p>
 <p>
-To join a client to a domain controller by changing the DNS server, first, ensure the client is connected to the same virtual network as the domain controller in Azure. Access the client's network settings, update the DNS server address to point to the domain controller's private IP address. Then, join the client to the domain by providing the domain name and appropriate credentials when prompted, allowing it to authenticate against the domain controller.
+To join a client VM to the domain controller by changing the DNS server, first, ensure the client VM is connected to the same virtual network as the domain controller in Azure. Access the client's network settings, update the DNS server address to point to the domain controller's private IP address. Then, join the client VM to the domain by providing the domain name and appropriate credentials when prompted, allowing it to authenticate against the domain controller.
 </p>
 <br />
 
