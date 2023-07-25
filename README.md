@@ -84,16 +84,17 @@ To select users that can remotely access "Client-1," you should configure the Re
 
 </p>
 <p>
-To create users using PowerShell based on the provided script, ensure that you have filled in the variables correctly for your use case (e.g., the desired password and the number of accounts to create). The script will generate random first and last names for each user and concatenate them to form a username. Then, it will create user accounts using the New-ADUser cmdlet with the specified attributes like password, name, employee ID, and other settings, and place the users in the "EMPLOYEES" organizational unit under Active Directory. The script will create the specified number of users as indicated by the $NUMBER_OF_ACCOUNTS_TO_CREATE variable.
+To create users using PowerShell based on the provided script, ensure that you have filled in the variables correctly for your use case (e.g., the desired password and the number of accounts to create). The script will generate random first and last names for each user and concatenate them to form a username. Then, it will create user accounts using the New-ADUser cmdlet with the specified attributes like password, name, employee ID, and other settings, and place the users in the "EMPLOYEES" organizational unit under Active Directory. The script will create the specified number of users as indicated by the "$NUMBER_OF_ACCOUNTS_TO_CREATE" variable.
 </p>
 <br />
 
 <p>
   
+![image](https://github.com/ijoshua932/configure-ad/assets/139269375/67da8239-53e8-49bf-8881-9c51abd28b72)
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After creating users using PowerShell, they can be found on the domain controller in the "EMPLOYEES" organizational unit within Active Directory. The "EMPLOYEES" OU serves as a container for the newly created user accounts. Administrators can manage and organize these users within the OU, which helps in maintaining a structured and efficient Active Directory environment.
 </p>
 <br />
 
