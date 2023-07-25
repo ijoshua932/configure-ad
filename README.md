@@ -48,7 +48,7 @@ To create and configure a domain controller in Azure, first, navigate to the Azu
 
 <p>
   
-
+![image](https://github.com/ijoshua932/configure-ad/assets/139269375/58c8febe-87ba-45ae-8b61-cf4283028105)
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
