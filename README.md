@@ -100,19 +100,13 @@ After creating users using PowerShell, they can be found on the domain controlle
 
 <p>
   
+![image](https://github.com/ijoshua932/configure-ad/assets/139269375/93521d8d-8217-44de-8421-e4e141107d3b)
 
+![image](https://github.com/ijoshua932/configure-ad/assets/139269375/ae3ebd17-7ef8-4770-8379-815052611577)
+
+![image](https://github.com/ijoshua932/configure-ad/assets/139269375/d0ad7ea3-d33e-4461-b9dc-e70a4527aedd)
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After creating the users in Active Directory using PowerShell, you should be able to log in as one of the newly created users on a domain-joined machine. Use the username and password assigned during the user creation process to authenticate and access resources within the domain. This enables you to test the user accounts' functionality and ensure they have the appropriate permissions and access rights based on their assigned roles.
 </p>
 <br />
-
-<p>
-  
-
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
