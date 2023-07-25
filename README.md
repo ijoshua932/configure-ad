@@ -71,19 +71,20 @@ To join a client VM to the domain controller by changing the DNS server, first, 
 
 <p>
   
-
+![image](https://github.com/ijoshua932/configure-ad/assets/139269375/d40218af-4fc4-4cb2-a74d-1c6b58f269b9)
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To select users that can remotely access "Client-1," you should configure the Remote Desktop settings on "Client-1." Access the "System" settings, click on "Remote settings," and then choose the option for "Select users." Add the desired users or groups who should have remote access permissions to "Client-1," and they will be allowed to connect remotely using Remote Desktop Protocol (RDP).
 </p>
 <br />
 
 <p>
   
+![image](https://github.com/ijoshua932/configure-ad/assets/139269375/6bc7156d-181f-44f0-979c-293e1120e038)
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To create users using PowerShell based on the provided script, ensure that you have filled in the variables correctly for your use case (e.g., the desired password and the number of accounts to create). The script will generate random first and last names for each user and concatenate them to form a username. Then, it will create user accounts using the New-ADUser cmdlet with the specified attributes like password, name, employee ID, and other settings, and place the users in the "EMPLOYEES" organizational unit under Active Directory. The script will create the specified number of users as indicated by the $NUMBER_OF_ACCOUNTS_TO_CREATE variable.
 </p>
 <br />
 
